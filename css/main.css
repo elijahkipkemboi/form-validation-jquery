@@ -1,0 +1,98 @@
+/*
+Add your comment header here
+*/
+html {
+    box-sizing:border-box ;
+}
+.center {
+    text-align: center;
+}
+
+#calcbtn{
+    max-width: 200px;
+}
+
+.center-margin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.simple-border{
+    border: 1px dashed darkgrey;
+}
+
+.img-container {
+    margin: 10px auto;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.text {
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+/* contacts styling */
+
+.container h5 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.container form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form-group {
+    display: block;
+    padding: 0 20px;
+}
+
+.form-group input {
+    border-radius: 7px;
+    min-height: 1.3em;
+    width: 100%;
+    height: 2.5em;
+    padding-left: 10px;
+}
+
+.form-group textarea {
+    width: 100%;
+    min-height: 100px;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+.buttons-container button {
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin: 0 10px;
+    background-color: #ccdccf;
+}
+
+.buttons-container {
+    display: block;
+    margin: 0 auto;
+}
+
+/*--gallary styles--*/
+
+.container img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 1rem;
+}
+
+@media (min-width: 767px) {
+    .img-container img {
+        width: 300px;
+    }
+}
+
