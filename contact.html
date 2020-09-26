@@ -9,8 +9,6 @@
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-
-    <link rel="stylesheet" href="" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -61,27 +59,56 @@
     </nav>
 
     <div class="container">
+      <div class="row error-div">
+        <ul>
+          <li>first error</li>
+        </ul>
+      </div>
       <div class="row">
         <h5>Enter your contacts below</h5>
         <form action="">
           <div class="form-group">
-            <input type="text" placeholder="name" maxlength="64" />
+            <input
+              type="text"
+              placeholder="name"
+              maxlength="64"
+              id="name-input"
+            />
           </div>
           <div class="form-group">
-            <input type="text" placeholder="return email" maxlength="64" />
+            <input
+              type="text"
+              placeholder="return email"
+              maxlength="64"
+              id="email-input"
+            />
           </div>
           <div class="form-group">
-            <input type="text" placeholder="re-enter email" maxlength="64" />
+            <input
+              type="text"
+              placeholder="re-enter email"
+              maxlength="64"
+              id="re-email-input"
+            />
           </div>
           <div class="form-group">
-            <input type="text" placeholder="subject" maxlength="64" />
+            <input
+              type="text"
+              placeholder="subject"
+              maxlength="64"
+              id="subject-input"
+            />
           </div>
           <div class="form-group">
-            <textarea placeholder="message" maxlength="1000"></textarea>
+            <textarea
+              placeholder="message"
+              maxlength="1000"
+              id="textarea-input"
+            ></textarea>
           </div>
           <div class="form-group buttons-container">
-            <button type="button">send</button>
-            <button type="button">clear</button>
+            <button type="button" id="send-btn">send</button>
+            <button type="button" id="clear-btn">clear</button>
           </div>
         </form>
       </div>
