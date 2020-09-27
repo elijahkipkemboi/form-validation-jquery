@@ -112,7 +112,7 @@ function clearHandler() {
 
   for (let i = 0; i < inputsArr.length; i++) {
     let elem = inputsArr[i];
-    grayBorder(elem);
+    greyBorder(elem);
   }
 }
 //event handlers
