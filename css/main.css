@@ -1,5 +1,8 @@
 /*
-Add your comment header here
+  Name: Elijah Kipkemboi
+  coding 03
+  Purpose: use bootstrap framework and 
+  style a resposive website for desktop, tablet and mobile phones
 */
 html {
   box-sizing: border-box;
@@ -44,7 +47,7 @@ html {
 /*error div */
 .error-div {
   border-radius: 7px;
-  border: 2px solid black;
+  border: 2px solid transparent;
   margin: 7px;
   padding: 10px;
   color: red;
@@ -67,6 +70,7 @@ html {
 }
 
 .form-group input {
+  border: grey 2px solid;
   border-radius: 7px;
   min-height: 1.3em;
   width: 100%;
@@ -79,6 +83,7 @@ html {
   min-height: 100px;
   border-radius: 7px;
   padding-left: 10px;
+  border: grey 2px solid;
 }
 
 .buttons-container button {
