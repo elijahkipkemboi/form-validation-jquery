@@ -1,7 +1,7 @@
 <!-- -------------------
   Name: Elijah Kipkemboi
-  Coding 04
-  Purpose: write javascript code to do client-side input validation.
+  Coding 05
+  Purpose: write jquery code to do client-side input validation.
 ------------------- -->
 <!DOCTYPE html>
 <html lang="en">
@@ -66,52 +66,27 @@
     <div class="container">
       <div class="row error-div" id="error-div"></div>
       <div class="row">
-        <h5>Enter your contacts below</h5>
+        <h5>Enter your name below</h5>
         <form action="">
           <div class="form-group">
             <input
               type="text"
-              placeholder="name"
+              placeholder="first name"
               maxlength="64"
-              id="name-input"
+              id="first-name"
               class="input-group"
             />
           </div>
           <div class="form-group">
             <input
               type="text"
-              placeholder="return email"
+              placeholder="last name"
               maxlength="64"
-              id="email-input"
+              id="last-name"
               class="input-group"
             />
           </div>
-          <div class="form-group">
-            <input
-              type="text"
-              placeholder="re-enter email"
-              maxlength="64"
-              id="re-email-input"
-              class="input-group"
-            />
-          </div>
-          <div class="form-group">
-            <input
-              type="text"
-              placeholder="subject"
-              maxlength="64"
-              id="subject-input"
-              class="input-group"
-            />
-          </div>
-          <div class="form-group">
-            <textarea
-              placeholder="message"
-              maxlength="1000"
-              id="textarea-input"
-              class="input-group"
-            ></textarea>
-          </div>
+
           <div class="form-group buttons-container">
             <button type="button" id="send-btn">send</button>
             <button type="button" id="clear-btn">clear</button>
@@ -121,6 +96,8 @@
     </div>
 
     <!-- jQuery first then Bootstrap JS -->
+    <script src="jquery.min.js"></script>
+
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>

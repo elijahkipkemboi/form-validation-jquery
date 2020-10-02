@@ -1,8 +1,7 @@
-/*
+/* -------------------
   Name: Elijah Kipkemboi
-  coding 03
-  Purpose: use bootstrap framework and 
-  style a resposive website for desktop, tablet and mobile phones
+  Coding 05
+  Purpose: write jquery code to do client-side input validation.
 */
 html {
   box-sizing: border-box;
@@ -50,13 +49,8 @@ html {
   border: 2px solid transparent;
   margin: 7px;
   padding: 10px;
-  color: red;
 }
 
-.error-div li {
-  text-decoration: none;
-  list-style: none;
-}
 .container form {
   display: flex;
   flex-flow: column wrap;
