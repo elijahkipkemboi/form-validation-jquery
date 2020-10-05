@@ -10,6 +10,7 @@ function clearForm() {
   $("#first-name").val("");
   $("#last-name").val("");
 }
+
 function validate() {
   let errorMessage = "";
   let fName = $("#first-name").val().trim();
